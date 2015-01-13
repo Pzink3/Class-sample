@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/../class_sample/css/font-face.css">
+<link rel="stylesheet" type="text/css" href="/../class_sample/css/main-font.css">
 <title>Class sample</title>
 <?php
         // The code below creates the class
