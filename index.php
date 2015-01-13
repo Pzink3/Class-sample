@@ -19,7 +19,7 @@
             
            
             public function greet() {
-              return "Hello World! My name is " . $this->firstname . " " . $this->lastname . ", and it's so awesome to meet you!";
+              return "Hello World! My name is " . $this->firstname . " " . $this->lastname . " and I am " . $this->age . " years old! It's so awesome to meet you!";
             }
           }
           
