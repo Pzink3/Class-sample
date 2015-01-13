@@ -1,3 +1,4 @@
+<title>Class sample</title>
 <?php
         // The code below creates the class
         class Human {
