@@ -3,7 +3,7 @@
 <title>Class Sample</title>
 <?php
         
-        class Human {
+        class Human1 {
            
             public $isAlive = true;
             public $firstname;
@@ -25,7 +25,7 @@
           }
           
       
-        $me = new Human('Parker', 'Zink', 16);
+        $me = new Human1('Parker', 'Zink', 16);
         
         
         echo $me->greet(); 
