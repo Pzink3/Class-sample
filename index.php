@@ -58,3 +58,31 @@
         
         echo $me->greet(); 
         ?>
+<?php
+        
+        class Human3 {
+           
+            public $isAlive = true;
+            public $name;
+            public $weblanguages;
+            public $best;
+            
+
+            public function __construct($name, $weblanguages, $best) {
+              $this->name = $name;
+              $this->weblanguages = $weblanguages;
+              $this->best = $best;
+            }
+            
+           
+            public function greet() {
+              return " One of my favorite classes that I really like is " . $this->name .  " because I am really getting the hang of " . $this->weblanguages . ", but believe me, Pasadena High School is " . $this->best . "!";
+            }
+          }
+          
+      
+        $me = new Human3('The App Academy', 'HTML, CSS, and PHP', 'the best');
+        
+        
+        echo $me->greet(); 
+        ?>
