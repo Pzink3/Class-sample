@@ -76,7 +76,7 @@
             
            
             public function greet() {
-              return " One of my favorite classes that I really like is " . $this->name .  " because I am really getting the hang of " . $this->weblanguages . ", but believe me, Pasadena High School is " . $this->best . "!";
+              return " One of my favorite classes that I really like is " . $this->name .  " because I am really getting the hang of " . $this->weblanguages . ". But believe me, Pasadena High School is " . $this->best . "!";
             }
           }
           
